@@ -1,20 +1,24 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
+import { MedicineDetail } from '../pages/MedicineDetail';
 import { MyDoses } from '../pages/MyDoses';
-import { MedicineSave } from '../pages/MedicineSave';
+import  AuthRoutes  from '../routes/tabs.routes';
 
 const StackRoutes = createStackNavigator()
 
 const AppRoutes: React.FC = () => (
     <StackRoutes.Navigator headerMode = 'none' >
+        
+        
         <StackRoutes.Screen
             name = 'MyDoses'
-            component = {MyDoses}
+            component = {AuthRoutes}
         />
-        <StackRoutes.Screen
+        <StackRoutes.Screen  
             name = 'MedicineSave'
-            component = {MedicineSave}
+            component = {AuthRoutes}
         />
+
     </StackRoutes.Navigator>
 )
 
