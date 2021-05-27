@@ -6,7 +6,7 @@ import { MedicineSave } from '../pages/MedicineSave';
 const StackRoutes = createStackNavigator()
 
 const AppRoutes: React.FC = () => (
-    <StackRoutes.Navigator>
+    <StackRoutes.Navigator headerMode = 'none' >
         <StackRoutes.Screen
             name = 'MyDoses'
             component = {MyDoses}
