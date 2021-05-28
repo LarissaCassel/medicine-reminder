@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -18,6 +18,7 @@ This project was developed using the following technologies:
 - [Expo](https://expo.io/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React Navigation](https://reactnavigation.org/docs/getting-started/)
+- [Async Storage](https://react-native-async-storage.github.io/async-storage/docs/install)
 - [Lottie](https://github.com/lottie-react-native/lottie-react-native)
 - [Agenda](https://github.com/wix/react-native-calendars)
 - [date-fns](https://date-fns.org/)
